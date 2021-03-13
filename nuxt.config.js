@@ -20,7 +20,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/kuklos-media/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/media/favicon.ico' }
     ]
   },
 
@@ -82,7 +82,7 @@ export default {
   },
 
   router: {
-    base: '/kuklos-media/'
+    base: '/media/'
   },
 
   content: {
