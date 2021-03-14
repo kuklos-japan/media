@@ -82,7 +82,7 @@ export default {
   },
 
   router: {
-    base: '/media/'
+    base: '/'
   },
 
   content: {
