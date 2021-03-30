@@ -1,6 +1,20 @@
 <template>
   <v-container>
-    <v-card color="#faf9fb" class="mt-6 mb-4" flat>
+    <v-card class="pa-3" flat>
+      <v-carousel>
+        <v-carousel-item v-for="(article, i) in articles" v-bind:src="article.slug" :key="i">
+          <nuxt-link :to="'/articles/'+ article.slug" style="text-decoration: none">
+            <img v-bind:src="article.image" height="100%" width="100%" alt="">
+          </nuxt-link>
+        </v-carousel-item>
+      </v-carousel>
+    </v-card>
+    <!-- <v-card class="pa-3">
+      <div>
+        <p>aaaa</p>
+      </div> -->
+    <!-- </v-card> -->
+    <v-card class="mt-6 mb-4" flat>
       <v-layout row wrap>
         <v-flex xs3 v-for="article in this.articleLists" :key="article.slug">
           <nuxt-link :to="'/articles/'+ article.slug" style="text-decoration: none">
@@ -30,6 +44,21 @@
       <v-pagination v-model="page" :length="length" @input="pageChange">
       </v-pagination>
       <p></p>
+      <v-divider></v-divider>
+      <v-sheet
+        color="teal lighten-4"
+        elevation="1"
+        height="95"
+        width="100%"
+      >
+        <v-list-item>
+          <v-list-item-content>
+            <!-- <v-list-item-title v-for="news in this.$content('news').limit(5).fetch()" :key="news.slug"> -->
+              <!-- <nuxt-link :to="'/news/'+ news.slug" > -->
+            <!-- </v-list-item-title> -->
+          </v-list-item-content>
+        </v-list-item>
+      </v-sheet>
     </v-card>
   </v-container>
 </template>
@@ -71,4 +100,9 @@ export default {
 </script>
 
 <style scoped>
+.hello{
+  /* height: 100%; */
+  height: 100vh;
+  background-color: dodgerblue;
+}
 </style>

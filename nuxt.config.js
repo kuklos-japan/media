@@ -49,19 +49,19 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
-    theme: {
       dark: false,
       themes: {
-        dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
-        },
         light: {
+          primary: "#4caf50",
+          secondary: "#8bc34a",
+          accent: "#cddc39",
+          error: "#ffeb3b",
+          warning: "#ffc107",
+          info: "#ff5722",
+          success: "#795548",
+          background: "#faf9fb",
+        },
+        dark: {
           primary: colors.blue.darken2,
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
@@ -99,7 +99,7 @@ export default {
         'remark-footnotes'
       ],
       rehypePlugins: [
-        'rehype-minify-whitespace',
+        // 'rehype-minify-whitespace',
         'rehype-sort-attribute-values',
         'rehype-sort-attributes',
         'rehype-raw'
