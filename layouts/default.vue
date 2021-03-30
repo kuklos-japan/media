@@ -6,18 +6,19 @@
       <v-card class="overflow-hidden">
         <v-app-bar
           app
+          color="background"
           elevate-on-scroll
         >
           <router-link to="/" style="text-decoration: none;">
             <v-img v-bind:src="logo_cryptomoney_src" max-height="64" max-width="64"></v-img>
           </router-link>
           <router-link to="/news" style="text-decoration: none;">
-            <v-btn depressed>
+            <v-btn depressed plain color="black">
               お知らせ
             </v-btn>
           </router-link>
           <router-link to="/articles" style="text-decoration: none;">
-            <v-btn depressed>
+            <v-btn depressed plain color="black">
               記事一覧
             </v-btn>
           </router-link>
