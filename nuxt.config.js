@@ -49,6 +49,7 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    theme: {
       dark: false,
       themes: {
         light: {
@@ -70,9 +71,6 @@ export default {
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
         }
-      },
-      options: {
-        customProperties: true
       }
     }
   },
