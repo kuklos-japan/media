@@ -1,5 +1,20 @@
 <template>
+
   <v-container>
+    <v-layout justify-center>
+      <v-img v-bind:src="logo_cryptomoney_src" max-height="200" max-width="240"></v-img>
+    </v-layout>
+    <p class="text-center font-weight-bold text-h3">
+      いい感じの標語を入れる。
+    </p>
+    <v-row class="blue lighten-4" justify="center" >
+      <v-col cols="12" md="12">
+        <v-card color="blue" outlined tile height=150></v-card>
+      </v-col>
+      <v-col v-for="n in 3" :key="n" cols=12 sm=10 md=8 lg=4 xl=3>
+        <v-card color="blue" outlined tile height=150></v-card>
+      </v-col>
+    </v-row>
     <v-card color="#faf9fb" class="mt-6 mb-4" flat>
       <v-layout row wrap>
         <v-flex xs3 v-for="article in this.articleLists" :key="article.slug">
@@ -44,6 +59,7 @@ export default {
   },
   data() {
     return{
+      logo_cryptomoney_src: require("@/assets/images/logo_cryptomoney.png"),
       page: 1,
       length: 0,
       newsLists: null,
