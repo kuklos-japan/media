@@ -22,8 +22,8 @@
               記事一覧
             </v-btn>
           </router-link>
-          <v-spacer></v-spacer>
-          <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
+          <!-- <v-spacer></v-spacer>
+          <v-app-bar-nav-icon @click.stop="drawer = !drawer" /> -->
         </v-app-bar>
       </v-card>
     </v-container>
