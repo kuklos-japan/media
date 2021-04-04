@@ -124,7 +124,7 @@
 export default {
   head() {
     return {
-      title: '記事一覧'
+      title: 'トップページ'
     }
   },
   data() {

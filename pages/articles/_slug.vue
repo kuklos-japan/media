@@ -6,7 +6,7 @@
         <!-- <dl>
           <dd>{{article.date}}</dd>
         </dl> -->
-        <div><img :src="article.image" /></div>
+        <div><img :src="article.image" width="300" height="auto"/></div>
         <!-- <div v-for="tag in article.tags" :key="tag">{{tag}}</div> -->
 
         <v-flex xs12 sma12 md12 style="width: 100%">
