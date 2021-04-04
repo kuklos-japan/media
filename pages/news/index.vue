@@ -65,7 +65,7 @@ export default {
     }
   },
   async asyncData ({ $content, params }) {
-    const newsQuery = await $content('news' || 'index').limit(15)
+    const newsQuery = await $content('news' || 'index').sortBy('date', 'desc').limit(15)
     const news = await newsQuery.fetch()
 
     return { lists: news }

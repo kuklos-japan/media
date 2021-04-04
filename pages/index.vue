@@ -139,7 +139,7 @@ export default {
     }
   },
   async asyncData ({ $content, params }) {
-    const articleQuery = await $content('articles' || 'index').limit(15)
+    const articleQuery = await $content('articles' || 'index').sortBy('date', 'desc').limit(15)
     const articles = await articleQuery.fetch()
 
     return { lists: articles }
