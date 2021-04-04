@@ -9,6 +9,7 @@ tags:
 keywords:
   - 暗号通貨
   - defi
+abstract1: defiではなくdafiです。決まった量のトークンを供給するのではなくネットワークの状態によって供給量を調整できるdefiです。
 image: images/dafi_logo.png
 <!-- slug: /2020/09/cryptocurrencies -->
 thumbnail: thumbnail/2020/08/knowledge.png

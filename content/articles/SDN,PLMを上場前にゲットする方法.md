@@ -13,6 +13,7 @@ keywords:
   - kusama
   - plasm
   - shiden
+abstract1: SDN(shiden),PLM(plasm)はpolkadotのエコシステムのプロジェクトです。ロックドロップ(ステーキングっぽいもの)で取得できます。取得のための手順(準備)を解説します。
 image: images/polkadot.png
 <!-- slug: /2020/09/cryptocurrencies -->
 thumbnail: thumbnail/2020/08/knowledge.png
