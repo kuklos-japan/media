@@ -89,7 +89,7 @@
           <v-img v-bind:src="logo_note_src" max-height="64" max-width="64"></v-img>
         </a>
         <v-spacer></v-spacer>
-        <a href="https://discord.gg/PY4ZC44NTA" target="_blank" rel="noopener noreferrer">
+        <a href="https://discord.gg/k6R9BdH9Ut" target="_blank" rel="noopener noreferrer">
           <v-img v-bind:src="logo_discord_src" max-height="36" max-width="36"></v-img>
         </a>
         <v-spacer></v-spacer>
