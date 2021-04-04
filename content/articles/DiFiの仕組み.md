@@ -7,6 +7,7 @@ tags:
   - 基礎
 keywords:
   - 暗号通貨
+abstract1: 金融仲介をディスラプトすることを目的に、暗号資産（仮想通貨）やブロックチェーン技術を活用した金融アプリケーションを表す用語
 image: images/sample_02.png
 abstract1: nivn
 abstract2: dsfafdafds

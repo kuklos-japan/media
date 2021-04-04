@@ -10,6 +10,7 @@ keywords:
   - 暗号通貨
   - defi
   - polkadot
+abstract1: PolkaFoundryはNFTオークションとマーケットプレイスなどが行えるプラットフォームです。Substrate上でEVMが動いているためsolidityでスマートコントラクトを記述できる利点がありそうです。
 image: images/PolkaFoundry.png
 <!-- slug: /2020/09/cryptocurrencies -->
 thumbnail: thumbnail/2020/08/knowledge.png
