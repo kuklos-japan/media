@@ -28,7 +28,7 @@
       </v-card>
     </v-container>
 
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       app
       right
       absolute
@@ -45,7 +45,7 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-    </v-navigation-drawer>
+    </v-navigation-drawer> -->
 
   <!-- main -->
     <v-main>
