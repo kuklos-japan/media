@@ -42,7 +42,7 @@
                     </v-col>
                     <v-col cols="8">
                       <v-layout justify-center>
-                        <v-img v-bind:src="article.image"></v-img>
+                        <v-img v-bind:src="article.image" max-height="320" max-width="560"></v-img>
                       </v-layout>
                     </v-col>
                   </v-row>
