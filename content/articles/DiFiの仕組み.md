@@ -8,6 +8,9 @@ tags:
 keywords:
   - 暗号通貨
 image: images/sample_02.png
+abstract1: nivn
+abstract2: dsfafdafds
+abstract3: fad
 <!-- slug: /2020/09/cryptocurrency -->
 thumbnail: thumbnail/2020/08/knowledge.png
 point1: 暗号通貨は美味しいぞ
