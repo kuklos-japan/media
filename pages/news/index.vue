@@ -10,7 +10,7 @@
           <nuxt-link :to="'/news/'+ news.slug" style="text-decoration: none">
             <v-card hover class="white lighten-2 ma-6" height="400" width="240">
               <v-layout justify-center>
-                <v-img v-bind:src="news.image" v-bind:max-height="150" v-bind:max-width="240"></v-img>
+                <v-img v-bind:src="news.image" v-bind:max-height="160" v-bind:max-width="240"></v-img>
               </v-layout>
               <v-card-title>
                 {{news.title}}
@@ -18,8 +18,6 @@
               <v-card-subtitle>
                 <div>
                   <div>{{putAbstract(news.abstract1)}}</div>
-                  <div>{{putAbstract(news.abstract2)}}</div>
-                  <div>{{putAbstract(news.abstract3)}}</div>
                 </div>
                 <div>
                   <v-icon small>mdi-clock-outline</v-icon>
