@@ -17,9 +17,9 @@
               </v-card-title>
               <v-card-subtitle>
                 <div>
-                  <div>{{news.abstract1}}</div>
-                  <div>{{news.abstract2}}</div>
-                  <div>{{news.abstract3}}</div>
+                  <div>{{putAbstract(news.abstract1)}}</div>
+                  <div>{{putAbstract(news.abstract2)}}</div>
+                  <div>{{putAbstract(news.abstract3)}}</div>
                 </div>
                 <div>
                   <v-icon small>mdi-clock-outline</v-icon>
@@ -95,6 +95,21 @@ export default {
         return true
       }else{
         return false
+      }
+    },
+    putAbstract: function(abstract) {
+      const MAX_LENGTH = 20
+      let modStr = ''
+
+      if (abstract !== undefined) {
+        if (abstract.length > MAX_LENGTH) {
+          modStr = abstract.substr(0, MAX_LENGTH) + '...'
+        }else{
+          modStr = abstract
+        }
+        return modStr
+      } else {
+        return ''
       }
     }
   }
