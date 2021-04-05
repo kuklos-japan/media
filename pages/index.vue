@@ -115,6 +115,9 @@
           </v-col>
         </div>
       </v-row>
+    <v-pagination v-model="page" :length="length" @input="pageChange">
+    </v-pagination>
+    <p></p>
   </v-container>
 </template>
 
